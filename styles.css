@@ -1,0 +1,142 @@
+@media (max-width: 767px) {
+  header {
+    width: 100%;
+    height: 50px;
+  }
+
+  .navbar {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  main {
+    background-image: url(img/code.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main-message {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-message h1 {
+    font-size: 40px;
+  }
+
+  .main-message p {
+    font-size: 18px;
+  }
+
+  .explaination {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .portfolio-images-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .portfolio-images {
+    display: block;
+  }
+
+  .portfolio-images > img {
+    display: block;
+  }
+
+  .portfolio-images > .none-image {
+    display: none;
+  }
+
+  .feature-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .strengthes {
+    display: block;
+  }
+
+  .strength {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .strength3 {
+    margin-bottom: 10px;
+  }
+
+  .strength > span {
+    margin: 10px 0;
+  }
+
+  .profile-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .profile-details {
+    display: block;
+  }
+
+  .icon {
+    width: 100%;
+  }
+  .name-and-skill {
+    width: 100%;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .name > h3 {
+    margin: 20px 0 5px;
+  }
+
+  .skill {
+    text-align: center;
+  }
+
+  .skill > h3 {
+    margin: 20px 0 5px;
+  }
+
+  .contact-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .form-and-link {
+    display: block;
+  }
+
+  .form > p {
+    margin-bottom: 20px;
+  }
+
+  .form,
+  .sns-link {
+    width: 100%;
+    text-align: center;
+  }
+
+  .center-sns-link {
+    margin: 0 8px;
+  }
+}

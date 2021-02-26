@@ -142,13 +142,13 @@ main {
 .border-pink {
   margin: 8px auto 30px;
   width: 70px;
-  border-bottom: 2px solid #ec715f;
+  border-bottom: 3px solid #ec715f;
 }
 
 .portfolio-images-container {
   width: 920px;
   margin: 0 auto;
-  padding: 30px 0 70px;
+  padding: 30px 0 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -301,12 +301,14 @@ main {
 }
 
 footer {
-  height: 70px;
+  height: 60px;
   background-color: #ec715f;
   text-align: center;
 }
 
 footer p {
   color: white;
-  line-height: 70px;
+  line-height: 60px;
 }
+
+
