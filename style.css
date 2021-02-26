@@ -61,6 +61,10 @@ header {
   background-color: #ec715f;
 }
 
+.fixed-top {
+  position: relative;
+}
+
 .navbar {
   height: 70px;
   max-width: 1024px;
@@ -128,7 +132,7 @@ main {
   margin: 0 auto;
 }
 
-.explaination h2 {
+.title {
   padding-top: 90px;
   font-size: 32px;
   font-weight: bold;
@@ -139,11 +143,6 @@ main {
   margin: 8px auto 30px;
   width: 70px;
   border-bottom: 2px solid #ec715f;
-}
-
-.explaination-messages {
-  font-size: 16px;
-  color: #000000;
 }
 
 .portfolio-images-container {
@@ -160,4 +159,154 @@ main {
   width: 300px;
   height: 250px;
   margin-bottom: 10px;
+}
+
+.feature-box {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.strengthes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 80px;
+}
+
+.strength {
+  width: 320px;
+  text-align: center;
+}
+
+.strength > span {
+  font-size: 60px;
+}
+
+.strength > h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+.center-strength {
+  margin: 0 10px;
+}
+
+.strength > p {
+  text-align: left;
+}
+
+.profile {
+  background-color: #eceff1;
+}
+
+.profile-box {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile-messages {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.profile-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 90px;
+}
+
+.icon {
+  width: 50%;
+  text-align: center;
+}
+
+.icon > img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.name-and-skill {
+  width: 50%;
+}
+
+.name {
+  margin-bottom: 20px;
+}
+
+.name > h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.skill > h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-box {
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.contact-messages {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.form-and-link {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 25%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.form > h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sns-link {
+  width: 25%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.sns-link > h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.sns-link > a {
+  color: black !important;
+  font-size: 50px;
+  display: inline-block;
+}
+
+.center-sns-link {
+  margin: 0 20px;
+}
+
+footer {
+  height: 70px;
+  background-color: #ec715f;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  line-height: 70px;
 }
